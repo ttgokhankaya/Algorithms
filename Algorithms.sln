@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BD371145-1E2C-45DB-B565-3CDF0DAB74FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0EA4EA19-1603-415A-9CFC-F9DC31450280}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmsTests", "tests\AlgorithmsTests\AlgorithmsTests.csproj", "{F9B98351-0906-42B9-8CB9-AA57A56AC693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Armstrong", "Armstrong\Armstrong.csproj", "{29ED6AC1-F4AE-4CD7-93BA-2B6923B4EB3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9B98351-0906-42B9-8CB9-AA57A56AC693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B98351-0906-42B9-8CB9-AA57A56AC693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B98351-0906-42B9-8CB9-AA57A56AC693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B98351-0906-42B9-8CB9-AA57A56AC693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29ED6AC1-F4AE-4CD7-93BA-2B6923B4EB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29ED6AC1-F4AE-4CD7-93BA-2B6923B4EB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29ED6AC1-F4AE-4CD7-93BA-2B6923B4EB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29ED6AC1-F4AE-4CD7-93BA-2B6923B4EB3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9B98351-0906-42B9-8CB9-AA57A56AC693} = {0EA4EA19-1603-415A-9CFC-F9DC31450280}
+		{29ED6AC1-F4AE-4CD7-93BA-2B6923B4EB3F} = {BD371145-1E2C-45DB-B565-3CDF0DAB74FE}
+	EndGlobalSection
+EndGlobal
